@@ -1,6 +1,6 @@
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: python:3.5
+box: python:3.4
 
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
@@ -28,4 +28,4 @@ build:
 
         name: python unit test
         code: |
-          python app_test.py
+          python test/app_test.py
