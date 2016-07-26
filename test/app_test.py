@@ -1,8 +1,9 @@
 # coding=utf-8
 
-import app
 import unittest
 import json
+
+from context import app
 
 
 class FlaskrTestCase(unittest.TestCase):
@@ -13,7 +14,6 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_empty_db(self):
         resp = self.app.get('/')
-        # help(resp)
         data = json.loads(resp.data.decode('utf-8'))
         assert data["status"] == "on"
 

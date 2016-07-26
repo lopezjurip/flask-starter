@@ -1,6 +1,7 @@
 # coding=utf-8
 
-import app
+# From directory app and then from file app, import app variable
+from app.app import app
 
 if __name__ == "__main__":
     app.run()

@@ -14,7 +14,7 @@ git clone https://github.com/mrpatiwi/flask-starter.git
 
 ### Setup
 
-Make sure you have [Python 3.5.x](https://www.python.org/) installed.
+Make sure you have [Python 3.4.x](https://www.python.org/) installed.
 
 Install the dependencies with:
 
@@ -35,5 +35,5 @@ Now it's available at [`http://localhost:5000`](http://localhost:5000).
 ### Testing
 
 ```sh
-python app_test.py
+python test/app_test.py
 ```
